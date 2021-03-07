@@ -3,18 +3,20 @@
 
 Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
 
-##documentation
+## Documentation
+
 - Example Tutorials
 - API documentations
 
-##explanations
+## Explanations
 - Blog
 - Video
 
-##Install
+## Install
 Current installation of Hylia has been tested on Python 3.6.
 
-Example 
+## Example 
 
-##Contact Us
-Mariam Kiran <mkiran@es.net>
+## Contact Us
+See attached Licence to Lawrence Berkeley National Laboratory
+Email: Mariam Kiran <mkiran@es.net>
