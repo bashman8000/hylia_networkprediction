@@ -7,7 +7,7 @@
 ---
 [![PyPI version](https://github.com/esnet/hylia_networkprediction)
 ![GitHub Workflow Status](https://github.com/esnet/hylia_networkprediction)
-![Supported versions](https://github.com/esnet/hylia_networkprediction)
+![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![GitHub Release Date](https://github.com/esnet/hylia_networkprediction)
 [![Downloads](https://https://github.com/esnet/hylia_networkprediction)
 [![Downloads](https://github.com/esnet/hylia_networkprediction)
