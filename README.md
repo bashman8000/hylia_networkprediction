@@ -3,6 +3,14 @@
 <p align="center">
 <img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
 <p>
+ 
+---
+[![PyPI version](https://github.com/esnet/hylia_networkprediction)
+![GitHub Workflow Status](https://github.com/esnet/hylia_networkprediction)
+![Supported versions](https://github.com/esnet/hylia_networkprediction)
+![GitHub Release Date](https://github.com/esnet/hylia_networkprediction)
+[![Downloads](https://https://github.com/esnet/hylia_networkprediction)
+[![Downloads](https://github.com/esnet/hylia_networkprediction)
 
 Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
 
