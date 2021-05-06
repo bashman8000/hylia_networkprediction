@@ -5,9 +5,10 @@
 <p>
  
 ---
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/unit8co/darts/darts%20release%20workflow/master)
 ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/unit8co/darts)
+![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+
 
 Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
 
