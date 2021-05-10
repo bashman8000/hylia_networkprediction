@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: hylia
+Version: 0.1.0
+Summary: A python time series library for network operations.
+Home-page: https://github.com/esnet/hylia_networkprediction
+Maintainer: Daphne
+Maintainer-email: mkiran@es.net
+License: Lawrence Berkeley National Laboratory
+Project-URL: Documentation, https://github.com/esnet/hylia_networkprediction
+Project-URL: Source Code, https://github.com/esnet/hylia_networkprediction
+Description: # Hylia: Studying Network Time-Series Data Made Easy
+        
+        <p align="center">
+        <img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
+        <p>
+         
+        ---
+        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+        
+        
+        Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
+        
+        ## Documentation
+        
+        - Example Tutorials
+        - API documentations
+        
+        ## Explanations
+        - Blog
+        - Video
+        
+        ## Install
+        Current installation of Hylia has been tested on Python 3.6.
+        
+        ## Example 
+        
+        ## Contact Us
+        See attached Licence to Lawrence Berkeley National Laboratory
+        Email: Mariam Kiran <mkiran@es.net>
+        
+Keywords: network time series prediction library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

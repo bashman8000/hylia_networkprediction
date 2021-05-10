@@ -2,8 +2,8 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 
-# def read_requirements(path):
-#     return list(Path(path).read_text().splitlines())
+def read_requirements(path):
+    return list(Path(path).read_text().splitlines())
 
 
 # base_reqs = read_requirements('requirements/core.txt')
@@ -37,10 +37,10 @@ setup(
       url=URL,
       maintainer='Daphne',
       maintainer_email='mkiran@es.net',
-      maintainer_email='bmohammed@lbl.gov',
       license='Lawrence Berkeley National Laboratory',
-      packages=find_packages(),
-      install_requires=all_reqs,
+      # packages=setuptools.find_packages(),
+      packages=['hylia'],
+      # install_requires=all_reqs,
       package_data={
           'hylia': ['py.typed'],
       },
