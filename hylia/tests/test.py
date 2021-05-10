@@ -1,5 +1,5 @@
 from hylia.functions import sum
-from ..timeseries import TimeSeries
+#from ..timeseries import TimeSeries
 
 if __name__ == '__main__':
-    print(f'sum of 3 and 5 is : {sum(3,5)}')
+    print(f'sum of 2020 and 1 is : {sum(2020,1)}')
