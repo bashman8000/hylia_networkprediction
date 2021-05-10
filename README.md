@@ -22,9 +22,9 @@ Hylia is a python libary to study, process and forecast time series data produce
 - Video
 
 ## Install
-Current installation of Hylia has been tested on Python 3.6. To get started  recommend to first setup a clean Python environment for your project with at least Python 3.6 using your favorite tool ([conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html "conda-env"), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/latest/) with or without [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)).
+Current installation of Hylia has been tested on Python 3.6. To get started  recommend to first setup a clean Python environment for your project with at least Python 3.6 using any of your favorite tool for instance, ([conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html "conda-env"), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/latest/) with or without [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)).
 
-Once your environment is set up you can install darts using pip:
+Once your environment is all set up you can install hylia using pip:
 
     pip install hylia
 
