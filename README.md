@@ -30,6 +30,39 @@ Once your environment is all set up you can install hylia using pip:
 
 ## Example 
 
+Create a `TimeSeries` object from a Pandas DataFrame, and split it in train/validation series:
+
+```python
+import pandas as pd
+from hylia import TimeSeries
+
+df = pd.read_csv('network.csv', delimiter=",")
+series = TimeSeries.from_dataframe(df, 'Month', '#bandwidth')
+train, val = series.split_after(pd.Timestamp('19580101'))
+```
+
+>The dataset used in this example can be downloaded from here.
+
+Fit an LSTM smoothing model, and make a prediction over the validation series' duration:
+
+```python
+from hylia.models import LSTM
+
+model = LSTM()
+model.fit(train)
+prediction = model.predict(len(val))
+```
+
+Plot:
+```python
+import matplotlib.pyplot as plt
+
+series.plot(label='actual')
+prediction.plot(label='forecast', lw=2)
+plt.legend()
+plt.xlabel('Year')
+```
+
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
 Email: Mariam Kiran <mkiran@es.net>
