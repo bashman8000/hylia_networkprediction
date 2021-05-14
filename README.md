@@ -71,6 +71,82 @@ plt.xlabel('Year')
 Please feel free go over the example and tutorial notebooks in 
 the [examples](https://github.com/esnet/hylia_networkprediction/tree/master/examples) directory.
 
+
+## Datasets
+
+Currently, hylia library supports the following datasets: 
+
+**Supported datasets:**
+
+* NetFlow
+* SNMP
+* [PCAP](https://www.winpcap.org/)
+* [sFLOW](https://sflow.org/about/index.php)
+
+## Features
+
+Currently, hylia library contains the following features: 
+
+**Forecasting Models:**
+
+* LSTM,
+* SARIMA (For seasonality),
+* Exponential smoothing,
+* ARIMA,
+* Facebook Prophet,
+* FFT (Fast Fourier Transform),
+* DDCRNN,
+
+
+
+## Installation Guide
+
+### Preconditions
+
+A Conda environment is thus recommended because it will handle all of those in one go. The following steps assume running inside a conda environment. 
+
+Create a conda environment for Python 3.7
+(after installing [conda](https://docs.conda.io/en/latest/miniconda.html)):
+
+    conda create --name <env-name> python=3.7
+
+Activate your virtual environment
+
+    conda activate <env-name>
+
+
+
+### Install hylia
+
+Install hylia with all available models: `pip install hylia`.
+
+
+### Tests
+
+A gradle setup works best when used in a python environment, but the only requirement is to have `pip` installed for Python 3+
+
+To run all tests at once just run
+```bash
+./gradlew test_all
+```
+
+alternatively you can run
+```bash
+./gradlew unitTest_all # to run only unittests
+./gradlew coverageTest # to run coverage
+./gradlew lint         # to run linter
+```
+
+
+### Documentation
+
+To build documantation locally just run
+```bash
+./gradlew buildDocs
+```
+After that docs will be available in `./docs/build/html` directory. You can just open `./docs/build/html/index.html` using your favourite browser.
+
+
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
 Email: Mariam Kiran <mkiran@es.net>
