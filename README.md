@@ -74,7 +74,7 @@ the [examples](https://github.com/esnet/hylia_networkprediction/tree/master/exam
 
 ## Datasets
 
-Currently, hylia library supports the following datasets: 
+Currently, hylia library supports the following network datasets: 
 
 **Supported datasets:**
 
