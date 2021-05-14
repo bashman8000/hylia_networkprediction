@@ -68,6 +68,8 @@ plt.xlabel('Year')
 </div>
 
 
+Please feel free go over the example and tutorial notebooks in 
+the [examples](https://github.com/esnet/hylia_networkprediction/tree/master/examples) directory.
 
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
