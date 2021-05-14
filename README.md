@@ -63,6 +63,12 @@ plt.legend()
 plt.xlabel('Year')
 ```
 
+<div style="text-align:center;">
+<img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/example.png" alt="hylia forecast example" />
+</div>
+
+
+
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
 Email: Mariam Kiran <mkiran@es.net>
