@@ -123,7 +123,7 @@ Install hylia with all available models: `pip install hylia`.
 
 ### Tests
 
-A gradle setup works best when used in a python environment, but the only requirement is to have `pip` installed for Python 3+
+A [gradle](https://gradle.org/) setup works best when used in a python environment, but the only requirement is to have `pip` installed for Python 3+
 
 To run all tests at once just run
 ```bash
