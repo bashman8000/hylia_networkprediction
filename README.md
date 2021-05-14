@@ -41,7 +41,7 @@ series = TimeSeries.from_dataframe(df, 'Month', '#bandwidth')
 train, val = series.split_after(pd.Timestamp('20210000'))
 ```
 
->The dataset used in this example can be downloaded from here.
+>The dataset used in this example can be downloaded from [here](https://github.com/esnet/hylia_networkprediction/blob/master/examples/networkdatasets/network.csv).
 
 Fit an LSTM smoothing model, and make a prediction over the validation series' duration:
 
