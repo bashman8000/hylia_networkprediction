@@ -1,9 +1,6 @@
 # Hylia: Studying Network Time-Series Data Made Easy
 
-<p align="center">
-<img src="https://github.com/esnet/hylia_networkprediction/raw/master/static/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
-<p>
- 
+![](https://github.com/esnet/hylia_networkprediction/raw/master/static/hylia-logo.png)
 ---
 ![PyPI version](https://badge.fury.io/py/hylia.svg)
 ![Supported versions](https://img.shields.io/pypi/pyversions/hylia)
