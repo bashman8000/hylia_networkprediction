@@ -9,16 +9,17 @@
 
 Hylia is a python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
 
-## Documentation
+## Guide and Documentation
 
-- Example Tutorials
-- API documentations
+- Hylia Example Tutorials
+- Hylia API documentations
 
 ## Explanations
+- Website
 - Blog
 - Video
 
-## Install
+## Installation
 Current installation of Hylia has been tested on Python 3.6. To get started  recommend to first setup a clean Python environment for your project with at least Python 3.6 using any of your favorite tool for instance, ([conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html "conda-env"), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/latest/) with or without [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)).
 
 Once your environment is all set up you can install hylia using pip:
@@ -98,16 +99,16 @@ Currently, hylia library contains the following features:
 
 ## Installation Guide
 
-### Preconditions
+### Requirements
 
-A Conda environment is thus recommended because it will handle all of those in one go. The following steps assume running inside a conda environment. 
+A Conda environment is recommended because it handles some non-python dependency issues because some of our models depends on [torch](https://pytorch.org/get-started/locally/) and [fbprophet](https://facebook.github.io/prophet/docs/installation.html#python). please feel free to follow the official instructions to install [torch](https://pytorch.org/get-started/locally/) and [fbprophet](https://facebook.github.io/prophet/docs/installation.html#python). The following steps assume running inside a conda environment. 
 
-Create a conda environment for Python 3.7
+Step 1: Create a conda environment for Python 3.7
 (after installing [conda](https://docs.conda.io/en/latest/miniconda.html)):
 
     conda create --name <env-name> python=3.7
 
-Activate your virtual environment
+Step: Then ctivate your virtual environment
 
     conda activate <env-name>
 

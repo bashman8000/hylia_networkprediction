@@ -2,7 +2,7 @@
 Timeseries
 ----------
 
-`TimeSeries` is the main class in `hylia`. It represents a univariate or multivariate time series.
+`TimeSeries` is the main class in `hylia`.
 """
 
 import pandas as pd
@@ -25,7 +25,7 @@ class TimeSeries:
                  fill_missing_dates: Optional[bool] = True,
                  dummy_index: Optional[bool] = False):
         """
-        A TimeSeries is an object representing a univariate or multivariate time series.
+        A TimeSeries is an object.
 
         TimeSeries are meant to be immutable.
 
