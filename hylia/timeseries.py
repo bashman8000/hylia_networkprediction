@@ -2,7 +2,7 @@
 Timeseries
 ----------
 
-`TimeSeries` is the main class in `darts`. It represents a univariate or multivariate time series.
+`TimeSeries` is the main class in `hylia`. It represents a univariate or multivariate time series.
 """
 
 import pandas as pd
@@ -43,7 +43,7 @@ class TimeSeries:
             Optionally, a boolean value indicating whether to fill missing dates with NaN values
             in case the frequency of `series` cannot be inferred.
         dummy_index
-            Optionally, if no date time index is present, this flag will instruct Darts to build a
+            Optionally, if no date time index is present, this flag will instruct hylia to build a
             dummy time index in order to obtain a valid TimeSeries. This option can be used in cases
             where the time index doesn't matter.
         """
@@ -740,7 +740,7 @@ class TimeSeries:
             Optionally, a boolean value indicating whether to fill missing dates with NaN values
             in case the frequency of `series` cannot be inferred.
         dummy_index
-            Optionally, if no date time index is present, this flag will instruct Darts to build a
+            Optionally, if no date time index is present, this flag will instruct hylia to build a
             dummy time index in order to obtain a valid TimeSeries. This option can be used in cases
             where the time index doesn't matter.
 
@@ -778,7 +778,7 @@ class TimeSeries:
             Optionally, a boolean value indicating whether to fill missing dates with NaN values
             in case the frequency of `series` cannot be inferred.
         dummy_index
-            Optionally, if no date time index is present, this flag will instruct Darts to build a
+            Optionally, if no date time index is present, this flag will instruct hylia to build a
             dummy time index in order to obtain a valid TimeSeries. This option can be used in cases
             where the time index doesn't matter.
 
@@ -842,7 +842,7 @@ class TimeSeries:
 
         Some longitudinal series might not be measured at certain time stamps but in steps. Others
         might not be a time series at all but autocorrelated analysis is still appropriate.
-        In these instances an artificial time index is created for Darts TimeSeries.
+        In these instances an artificial time index is created for hylia TimeSeries.
 
         Parameters
         ----------
@@ -1567,7 +1567,7 @@ class TimeSeries:
 
     def __getitem__(self, key: Union[pd.DatetimeIndex, List[str], List[int], List[pd.Timestamp], str, int,
                                      pd.Timestamp, Any]) -> 'TimeSeries':
-        """Allow indexing on darts TimeSeries.
+        """Allow indexing on hylia TimeSeries.
 
         The supported index types are the following base types as a single value, a list or a slice:
         - pd.Timestamp -> return a TimeSeries corresponding to the value(s) at the given timestamp(s).

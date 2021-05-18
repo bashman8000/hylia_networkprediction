@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: hylia
-Version: 0.1.0
+Version: 0.1.1
 Summary: A python time series library for network operations.
 Home-page: https://github.com/esnet/hylia_networkprediction
 Maintainer: Daphne
@@ -11,13 +11,13 @@ Project-URL: Source Code, https://github.com/esnet/hylia_networkprediction
 Description: # Hylia: Studying Network Time-Series Data Made Easy
         
         <p align="center">
-        <img src="https://github.com/esnet/hylia_networkprediction/blob/master/static/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
+        <img src="https://github.com/esnet/hylia_networkprediction/raw/master/static/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
         <p>
          
         ---
-        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
-        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
-        ![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+        ![PyPI version](https://badge.fury.io/py/hylia.svg)
+        ![Supported versions](https://img.shields.io/pypi/pyversions/hylia)
+        
         
         
         Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
@@ -48,7 +48,7 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         
         df = pd.read_csv('network.csv', delimiter=",")
         series = TimeSeries.from_dataframe(df, 'Month', '#bandwidth')
-        train, val = series.split_after(pd.Timestamp('1304241086000'))
+        train, val = series.split_after(pd.Timestamp('1304241712'))
         ```
         
         >The dataset used in this example can be downloaded from [here](https://github.com/esnet/hylia_networkprediction/blob/master/examples/networkdatasets/network.csv).
@@ -74,7 +74,7 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         ```
         
         <div style="text-align:center;">
-        <img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/example.png" alt="hylia forecast example" />
+        <img src="https://github.com/esnet/hylia_networkprediction/blob/master/static/example.png" alt="hylia forecast example" />
         </div>
         
         
