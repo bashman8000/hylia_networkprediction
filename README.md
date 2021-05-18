@@ -64,7 +64,7 @@ plt.xlabel('Year')
 ```
 
 <div style="text-align:center;">
-<img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/example.png" alt="hylia forecast example" />
+<img src="https://github.com/esnet/hylia_networkprediction/blob/master/static/example.png" alt="hylia forecast example" />
 </div>
 
 
