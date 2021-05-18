@@ -1,7 +1,7 @@
 # Hylia: Studying Network Time-Series Data Made Easy
 
 <p align="center">
-<img src="https://github.com/esnet/hylia_networkprediction/blob/master/static:images/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
+<img src="https://github.com/esnet/hylia_networkprediction/blob/master/static/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
 <p>
  
 ---
