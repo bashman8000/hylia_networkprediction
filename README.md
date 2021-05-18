@@ -7,8 +7,7 @@
 ---
 ![PyPI version](https://badge.fury.io/py/hylia.svg)
 ![Supported versions](https://img.shields.io/pypi/pyversions/hylia)
-![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
-![Supported versions](https://img.shields.io/badge/python-3.7+-blue.svg)
+
 
 
 Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
