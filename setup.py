@@ -2,16 +2,16 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 
-def read_requirements(path):
-    return list(Path(path).read_text().splitlines())
+# def read_requirements(path):
+#     return list(Path(path).read_text().splitlines())
 
 
-base_reqs = read_requirements('requirements/core.txt')
-pmdarima_reqs = read_requirements('requirements/pmdarima.txt')
-torch_reqs = read_requirements('requirements/torch.txt')
-#fbprophet_reqs = read_requirements('requirements/fbprophet.txt')
+# base_reqs = read_requirements('requirements/core.txt')
+# pmdarima_reqs = read_requirements('requirements/pmdarima.txt')
+# torch_reqs = read_requirements('requirements/torch.txt')
+# fbprophet_reqs = read_requirements('requirements/fbprophet.txt')
 
-all_reqs = base_reqs + pmdarima_reqs + torch_reqs #+ fbprophet_reqs
+# all_reqs = base_reqs + pmdarima_reqs + torch_reqs + fbprophet_reqs
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
@@ -29,7 +29,7 @@ PROJECT_URLS = {
 
 setup(
       name='hylia',
-      version="0.1.1",
+      version="0.1.2",
       description='A python time series library for network operations.',
       long_description=LONG_DESCRIPTION,
       long_description_content_type="text/markdown",
@@ -40,7 +40,21 @@ setup(
       license='Lawrence Berkeley National Laboratory',
       packages=find_packages(),
       #packages=['hylia'],
-      install_requires=all_reqs,
+      install_requires=['pmdarima',
+                        'numpy>=1.19.5',
+                        'torch>=1.8.1',
+#                        'fbprophet>=0.7.1',
+                        'scipy>=1.6.2',
+                        'statsmodels',
+                        'pandas>=1.2.3',
+                        'ipython>=7.22.0',                     
+                        'tqdm>=4.60.0',
+                        'holidays>=0.11.1',
+                        'scikit-learn>=0.24.1',
+                        'pystan>=2.19.1.1',
+                        'tensorboard>=2.4.1',
+                       ],
+      #install_requires=all_reqs,
       package_data={
           'hylia': ['py.typed'],
       },

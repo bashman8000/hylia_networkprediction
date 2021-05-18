@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: hylia
-Version: 0.1.1
+Version: 0.1.2
 Summary: A python time series library for network operations.
 Home-page: https://github.com/esnet/hylia_networkprediction
 Maintainer: Daphne
@@ -48,7 +48,7 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         
         df = pd.read_csv('network.csv', delimiter=",")
         series = TimeSeries.from_dataframe(df, 'Month', '#bandwidth')
-        train, val = series.split_after(pd.Timestamp('20210000'))
+        train, val = series.split_after(pd.Timestamp('1304241086000'))
         ```
         
         >The dataset used in this example can be downloaded from [here](https://github.com/esnet/hylia_networkprediction/blob/master/examples/networkdatasets/network.csv).
