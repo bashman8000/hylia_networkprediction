@@ -6,12 +6,12 @@ def read_requirements(path):
     return list(Path(path).read_text().splitlines())
 
 
-# base_reqs = read_requirements('requirements/core.txt')
-# pmdarima_reqs = read_requirements('requirements/pmdarima.txt')
-# torch_reqs = read_requirements('requirements/torch.txt')
-# fbprophet_reqs = read_requirements('requirements/fbprophet.txt')
+base_reqs = read_requirements('requirements/core.txt')
+pmdarima_reqs = read_requirements('requirements/pmdarima.txt')
+torch_reqs = read_requirements('requirements/torch.txt')
+#fbprophet_reqs = read_requirements('requirements/fbprophet.txt')
 
-# all_reqs = base_reqs + pmdarima_reqs + torch_reqs + fbprophet_reqs
+all_reqs = base_reqs + pmdarima_reqs + torch_reqs #+ fbprophet_reqs
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
@@ -29,7 +29,7 @@ PROJECT_URLS = {
 
 setup(
       name='hylia',
-      version="0.1.0",
+      version="0.1.1",
       description='A python time series library for network operations.',
       long_description=LONG_DESCRIPTION,
       long_description_content_type="text/markdown",
@@ -38,9 +38,9 @@ setup(
       maintainer='Daphne',
       maintainer_email='mkiran@es.net',
       license='Lawrence Berkeley National Laboratory',
-      # packages=setuptools.find_packages(),
-      packages=['hylia'],
-      # install_requires=all_reqs,
+      packages=find_packages(),
+      #packages=['hylia'],
+      install_requires=all_reqs,
       package_data={
           'hylia': ['py.typed'],
       },

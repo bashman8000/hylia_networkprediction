@@ -1,10 +1,65 @@
+LICENSE
 README.md
 setup.py
+deeplearning/LSTM.py
+deeplearning/creates_m5_models_simpleLSTM.py
+deeplearning/multi_step_prediction.py
+deeplearning/seq2seq-LSTMautoencoder.py
+deeplearning/simple-1lstm-model.py
+dist/hylia-0.1.0-py2.py3-none-any.whl
+dist/hylia-0.1.0-py3.7.egg
+dist/hylia-0.1.0.tar.gz
+examples/All_links_Multivariate TS Analysis.ipynb
+examples/EncDec AD.ipynb
+examples/Multi-step Prediction 2.ipynb
+examples/Multi-step Prediction.ipynb
+examples/Multiple Sites.ipynb
+examples/Multistep Prediction Testing.ipynb
+examples/Multivariate Site Prediction.ipynb
+examples/TrafficLSTMBaseline.ipynb
+examples/TrafficPredictionResults.ipynb
+examples/plot_for_zones.ipynb
+examples/results_display.ipynb
+examples/trans_atl_plot.ipynb
+examples/networkdatasets/2018concat_data.csv
+examples/networkdatasets/2019_concat_data.csv
+examples/networkdatasets/network.csv
+examples/networkdatasets/trans_atl_links.csv
 hylia/__init__.py
 hylia/functions.py
+hylia/requirements.txt
 hylia/timeseries.py
 hylia.egg-info/PKG-INFO
 hylia.egg-info/SOURCES.txt
 hylia.egg-info/dependency_links.txt
 hylia.egg-info/not-zip-safe
+hylia.egg-info/requires.txt
 hylia.egg-info/top_level.txt
+hylia/__pycache__/__init__.cpython-37.pyc
+hylia/__pycache__/timeseries.cpython-37.pyc
+hylia/models/FFT_model/FFT freq- spectrum for_aofo_lon_in.m
+hylia/models/FFT_model/FFT.py
+hylia/models/LSTM_models/bidirectional_lstm.py
+hylia/models/LSTM_models/lstm.py
+hylia/models/LSTM_models/main.py
+hylia/models/LSTM_models/mawi_lstm.py
+hylia/models/LSTM_models/multi_step_prediction.py
+hylia/models/LSTM_models/read_data.py
+hylia/models/LSTM_models/repvec.py
+hylia/models/LSTM_models/s2stp.py
+hylia/models/LSTM_models/seq2seq-LSTMautoencoder.py
+hylia/models/LSTM_models/seq2seq.py
+hylia/models/LSTM_models/simple-1lstm-model.py
+hylia/models/LSTM_models/simple_lstm.py
+hylia/models/LSTM_models/stacked_lstm.py
+hylia/tests/__init__.py
+hylia/tests/test.py
+hylia/tests/test_sample.py
+static:images/example.png
+static:images/hylia-logo-old.png
+static:images/hylia-logo.png
+statsmodels/FFT.py
+statsmodels/filterhighfre.py
+statsmodels/gatherdata.py
+statsmodels/time_series_justifications.py
+statsmodels/ts_algorithms.py

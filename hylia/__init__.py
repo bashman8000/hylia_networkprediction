@@ -10,8 +10,8 @@ A network time series library
 # from matplotlib import cycler
 
 
-__version__ = '0.1.0'
-__author__ = 'Mariam Kiran and Bashir Mohammed'
+__version__ = '0.1.1'
+__author__ = 'Mariam Kiran, Bashir Mohammed and Nandini Krishnaswamy'
 __credits__ = 'Lawrence Berkeley  National Laboratory'
 
 # colors = cycler(color=['black', '003DFD', 'b512b8', '11a9ba', '0d780f', 'f77f07', 'ba0f0f'])
