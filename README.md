@@ -38,7 +38,7 @@ from hylia import TimeSeries
 
 df = pd.read_csv('network.csv', delimiter=",")
 series = TimeSeries.from_dataframe(df, 'Month', '#bandwidth')
-train, val = series.split_after(pd.Timestamp('20210000'))
+train, val = series.split_after(pd.Timestamp('1304241086000'))
 ```
 
 >The dataset used in this example can be downloaded from [here](https://github.com/esnet/hylia_networkprediction/blob/master/examples/networkdatasets/network.csv).
