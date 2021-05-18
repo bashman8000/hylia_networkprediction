@@ -10,7 +10,7 @@ A network time series library
 # from matplotlib import cycler
 
 
-__version__ = '0.1.2'
+__version__ = '0.1.0'
 __author__ = 'Mariam Kiran, Bashir Mohammed and Nandini Krishnaswamy'
 __credits__ = 'Lawrence Berkeley  National Laboratory'
 

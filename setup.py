@@ -29,7 +29,7 @@ PROJECT_URLS = {
 
 setup(
       name='hylia',
-      version="0.1.2",
+      version="0.1.0",
       description='A python time series library for network operations.',
       long_description=LONG_DESCRIPTION,
       long_description_content_type="text/markdown",

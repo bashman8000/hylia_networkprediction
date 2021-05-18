@@ -6,12 +6,6 @@ deeplearning/creates_m5_models_simpleLSTM.py
 deeplearning/multi_step_prediction.py
 deeplearning/seq2seq-LSTMautoencoder.py
 deeplearning/simple-1lstm-model.py
-dist/hylia-0.1.0-py2.py3-none-any.whl
-dist/hylia-0.1.0-py3-none-any.whl
-dist/hylia-0.1.0-py3.7.egg
-dist/hylia-0.1.0.tar.gz
-dist/hylia-0.1.1-py3-none-any.whl
-dist/hylia-0.1.1.tar.gz
 examples/All_links_Multivariate TS Analysis.ipynb
 examples/EncDec AD.ipynb
 examples/Multi-step Prediction 2.ipynb
@@ -65,9 +59,9 @@ requirements/fbprophet.txt
 requirements/pmdarima.txt
 requirements/release.txt
 requirements/torch.txt
-static:images/example.png
-static:images/hylia-logo-old.png
-static:images/hylia-logo.png
+static/example.png
+static/hylia-logo-old.png
+static/hylia-logo.png
 statsmodels/FFT.py
 statsmodels/filterhighfre.py
 statsmodels/gatherdata.py
