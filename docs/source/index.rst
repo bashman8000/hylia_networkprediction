@@ -29,9 +29,8 @@ A formatted version of the citation would look like this::
 * `Release Notes`_
 * `Example Notebooks`_
 * `Blog Posts`_
-* `LinkedIn `_
-* `YouTube `_
-* `Contribute `_
+* `License`_
+* `Youtube`_
 * `More about Hylia <https://github.com/esnet/hylia_networkprediction>`_
 
 
