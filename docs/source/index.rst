@@ -16,12 +16,12 @@ URL https://www.osti.gov/biblio/1769344.
 
 A formatted version of the citation would look like this::
 
-@techreport{kiran2020hylia,
-  title={Hylia: Time-Series Library for Network Operations (Hylia) v1},
-  author={Kiran, Mariam and Krishnaswamy, Nandini and Mohammed, Bashir and others},
-  year={2020},
-  institution={Lawrence Berkeley National Lab.(LBNL), Berkeley, CA (United States)}
-}
+    @techreport{kiran2020hylia,
+    title={Hylia: Time-Series Library for Network Operations (Hylia) v1},
+    author={Kiran, Mariam and Krishnaswamy, Nandini and Mohammed, Bashir and others},
+    year={2020},
+    institution={Lawrence Berkeley National Lab.(LBNL), Berkeley, CA (United States)}
+  }
 
 
 **Key Links and Resources**\ :
