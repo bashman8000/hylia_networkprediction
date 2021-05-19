@@ -10,7 +10,7 @@ Hylia is a time series python library to study, process and forecast time series
 
 **Citing Hylia**\ :
 
-If you’re citing Hylia in research or scientific paper, please cite this page as the resource. 
+If you are citing Hylia in research or scientific paper, please cite this page as the resource. 
 
 URL https://www.osti.gov/biblio/1769344. 
 
