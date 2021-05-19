@@ -4,71 +4,97 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Welcome to hylia’s documentation! &#8212; hylia 0.1.1 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <title>Hylia’s Documentation for Network Time-Series &#8212; hylia 0.1.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/language_data.js"></script>
+    
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-
+    <link rel="next" title="Installation" href="installation.html" /> 
   </head><body>
-  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">hylia 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          
-
           <div class="body" role="main">
             
-  <div class="section" id="welcome-to-hylia-s-documentation">
-<h1>Welcome to hylia’s documentation!<a class="headerlink" href="#welcome-to-hylia-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="hylia-s-documentation-for-network-time-series">
+<h1>Hylia’s Documentation for Network Time-Series<a class="headerlink" href="#hylia-s-documentation-for-network-time-series" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="hylia">
+<h1>Hylia<a class="headerlink" href="#hylia" title="Permalink to this headline">¶</a></h1>
+<p>Hylia is a time series python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. The Hylia library makes it easy to combine the predictions of several models. It can be trained on multiple time series and It supports both univariate and multivariate time series and models.</p>
+<img alt="https://github.com/esnet/hylia_networkprediction/blob/master/static/hylia-logo.png?raw=true" src="https://github.com/esnet/hylia_networkprediction/blob/master/static/hylia-logo.png?raw=true" />
+<p><strong>Citing Hylia</strong>:</p>
+<p>If you are citing Hylia in research or scientific paper, please cite this page as the resource.</p>
+<p>URL <a class="reference external" href="https://www.osti.gov/biblio/1769344">https://www.osti.gov/biblio/1769344</a>.</p>
+<p>A formatted version of the citation would look like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  <span class="nd">@techreport</span><span class="p">{</span><span class="n">kiran2020hylia</span><span class="p">,</span>
+  <span class="n">title</span><span class="o">=</span><span class="p">{</span><span class="n">Hylia</span><span class="p">:</span> <span class="n">Time</span><span class="o">-</span><span class="n">Series</span> <span class="n">Library</span> <span class="k">for</span> <span class="n">Network</span> <span class="n">Operations</span> <span class="p">(</span><span class="n">Hylia</span><span class="p">)</span> <span class="n">v1</span><span class="p">},</span>
+  <span class="n">author</span><span class="o">=</span><span class="p">{</span><span class="n">Kiran</span><span class="p">,</span> <span class="n">Mariam</span> <span class="ow">and</span> <span class="n">Krishnaswamy</span><span class="p">,</span> <span class="n">Nandini</span> <span class="ow">and</span> <span class="n">Mohammed</span><span class="p">,</span> <span class="n">Bashir</span> <span class="ow">and</span> <span class="n">others</span><span class="p">},</span>
+  <span class="n">year</span><span class="o">=</span><span class="p">{</span><span class="mi">2020</span><span class="p">},</span>
+  <span class="n">institution</span><span class="o">=</span><span class="p">{</span><span class="n">Lawrence</span> <span class="n">Berkeley</span> <span class="n">National</span> <span class="n">Lab</span><span class="o">.</span><span class="p">(</span><span class="n">LBNL</span><span class="p">),</span> <span class="n">Berkeley</span><span class="p">,</span> <span class="n">CA</span> <span class="p">(</span><span class="n">United</span> <span class="n">States</span><span class="p">)}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Key Links and Resources</strong>:</p>
+<ul class="simple">
+<li><p><a href="#id1"><span class="problematic" id="id2">`Release Notes`_</span></a></p></li>
+<li><p><a href="#id3"><span class="problematic" id="id4">`Example Notebooks`_</span></a></p></li>
+<li><p><a href="#id5"><span class="problematic" id="id6">`Blog Posts`_</span></a></p></li>
+<li><p><a href="#id7"><span class="problematic" id="id8">`License`_</span></a></p></li>
+<li><p><a href="#id9"><span class="problematic" id="id10">`Youtube`_</span></a></p></li>
+<li><p><a class="reference external" href="https://github.com/esnet/hylia_networkprediction">More about Hylia</a></p></li>
+</ul>
 <div class="toctree-wrapper compound">
 </div>
+<div class="toctree-wrapper compound">
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
 </div>
 
 
           </div>
-          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">hylia</a></h1>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Hylia’s Documentation for Network Time-Series</a></li>
+<li><a class="reference internal" href="#hylia">Hylia</a><ul>
 </ul>
-</div>
+</li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="next chapter">Installation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
 <div id="searchbox" style="display: none" role="search">
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
@@ -79,32 +105,25 @@
     </div>
 </div>
 <script>$('#searchbox').show(0);</script>
-
-
-
-
-
-
-
-
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="footer">
-      &copy;2021, Bashir Mohammed.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.0</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">hylia 0.1.1 documentation</a> &#187;</li> 
+      </ul>
     </div>
-
-    
-
-    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Bashir Mohammed.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.0.
+    </div>
   </body>
 </html>

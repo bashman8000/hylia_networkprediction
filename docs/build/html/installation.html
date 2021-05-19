@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Installation &#8212; hylia 0.1.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Some ML Techniques - Tutorials" href="tutorials.html" />
+    <link rel="prev" title="Hylia: Studying Network Time-Series Data Made Easy" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="tutorials.html" title="Some ML Techniques - Tutorials"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Hylia: Studying Network Time-Series Data Made Easy"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">hylia 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installing-the-latest-release">
+<h2>Installing the latest release<a class="headerlink" href="#installing-the-latest-release" title="Permalink to this headline">¶</a></h2>
+<p>Installing Hylia is the first step towards building your first machine learning model in Hylia. Installation is easy and takes only a few minutes. All hard dependencies are also installed with Hylia. <a class="reference external" href="https://github.com/unit8co/darts/tree/master/requirements">Click here</a> to see the complete list of hard dependencies.</p>
+<p>In order to avoid potential conflicts with other packages, it is strongly recommended to use a virtual environment, e.g. python3 virtualenv (see <a class="reference external" href="https://docs.python.org/3/tutorial/venv.html">python3 virtualenv documentation</a>) or <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">conda environments</a>. Using an isolated environment makes it possible to install a specific version of hylia and its dependencies independently of any previously installed Python packages. See an example below of how to create a conda environment and install Hylia.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># create a conda environment</span>
+<span class="n">conda</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">yourenvname</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.6</span>
+
+<span class="c1"># activate conda environment</span>
+<span class="n">conda</span> <span class="n">activate</span> <span class="n">yourenvname</span>
+
+<span class="c1"># install hylia</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">hylia</span>
+
+<span class="c1"># create notebook kernel connected with the conda environment</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">ipykernel</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span> <span class="o">--</span><span class="n">name</span> <span class="n">yourenvname</span> <span class="o">--</span><span class="n">display</span><span class="o">-</span><span class="n">name</span> <span class="s2">&quot;display-name&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installing-the-full-version">
+<h2>Installing the full version<a class="headerlink" href="#installing-the-full-version" title="Permalink to this headline">¶</a></h2>
+<p>Hylia’s default installation is a slim version of hylia which only installs hard dependencies that are <a class="reference external" href="https://github.com/unit8co/darts/tree/master/requirements">listed here</a>. To install a specific version of hylia, use the following command:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># install the full version of hylia</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">hylia</span><span class="o">==</span><span class="mf">0.1</span><span class="o">.</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="hylia-on-gpu">
+<h2>Hylia on GPU<a class="headerlink" href="#hylia-on-gpu" title="Permalink to this headline">¶</a></h2>
+<p>Coming soon</p>
+</div>
+<div class="section" id="recommended-environment-for-use">
+<h2>Recommended environment for use<a class="headerlink" href="#recommended-environment-for-use" title="Permalink to this headline">¶</a></h2>
+<p>You can use Hylia in your choice of Integrated Development Environment (IDE) but since it uses html and several other interactive widgets, it is optimized for use within a notebook environment, be it <a class="reference external" href="https://jupyter.org/">Jupyter Notebook</a>, <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/">Jupyter Lab</a>, <a class="reference external" href="https://notebooks.azure.com/">Azure Notebooks</a> or <a class="reference external" href="https://colab.research.google.com/">Google Colab</a>.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jupyter.readthedocs.io/en/latest/install.html">Learn how to install Jupyter Notebook</a></p></li>
+<li><p><a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">Learn how to install Jupyter Lab</a></p></li>
+<li><p><a class="reference external" href="https://notebooks.azure.com/">Get Started with Azure Notebooks</a></p></li>
+<li><p><a class="reference external" href="https://colab.research.google.com/">Get Started with Google Colab</a></p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/">Get Started with Anaconda Distribution</a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#installing-the-latest-release">Installing the latest release</a></li>
+<li><a class="reference internal" href="#installing-the-full-version">Installing the full version</a></li>
+<li><a class="reference internal" href="#hylia-on-gpu">Hylia on GPU</a></li>
+<li><a class="reference internal" href="#recommended-environment-for-use">Recommended environment for use</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Hylia: Studying Network Time-Series Data Made Easy</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tutorials.html"
+                        title="next chapter">Some ML Techniques - Tutorials</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/installation.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="tutorials.html" title="Some ML Techniques - Tutorials"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Hylia: Studying Network Time-Series Data Made Easy"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">hylia 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Bashir Mohammed.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.0.
+    </div>
+  </body>
+</html>

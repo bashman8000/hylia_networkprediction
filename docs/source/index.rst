@@ -1,6 +1,9 @@
-Hylia: Studying Network Time-Series Data Made Easy 
-===================================
+Hylia's Documentation for Network Time-Series
+==============================================
 
+
+Hylia
+============
 
 Hylia is a time series python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. The Hylia library makes it easy to combine the predictions of several models. It can be trained on multiple time series and It supports both univariate and multivariate time series and models.
 
@@ -44,6 +47,7 @@ A formatted version of the citation would look like this::
    tutorials
    contribute
    modules
+   license
 
 .. toctree::
    :maxdepth: 2
