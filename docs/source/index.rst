@@ -1,7 +1,3 @@
-Hylia's Documentation for Network Time-Series
-=============================================
-
-
 Hylia
 =====
 
@@ -15,7 +11,7 @@ Hylia is a time series python library to study, process and forecast time series
 
 If you are citing Hylia in research or scientific paper, please cite this page as the resource. 
 
-URL https://www.osti.gov/biblio/1769344. 
+URL: https://www.osti.gov/biblio/1769344. 
 
 A formatted version of the citation would look like this::
 
