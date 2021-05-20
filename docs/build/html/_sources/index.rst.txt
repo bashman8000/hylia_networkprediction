@@ -27,13 +27,14 @@ A formatted version of the citation would look like this::
   }
 
 
-**Key Links and Resources**\ :
+Key Links and Resources
+^^^^^^^^^^^^^^^^^^^^^^^
 
-* `Release Notes`_
-* `Example Notebooks`_
-* `Blog Posts`_
-* `License`_
-* `Youtube`_
+* Release Notes
+* Example Notebooks
+* Blog Posts
+* License
+* Youtube
 * `More about Hylia <https://github.com/esnet/hylia_networkprediction>`_
 
 

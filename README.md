@@ -144,6 +144,15 @@ To build documantation locally just run
 ```
 After that docs will be available in `./docs/build/html` directory. You can just open `./docs/build/html/index.html` using your favourite browser.
 
+## Important Links
+- Release notes:
+- Docs:
+- Tutorials: 
+- Example Notebooks:
+- Other Resources: 
+- Issue Logs: 
+- Contribute:
+- Join Slack Community:
 
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
