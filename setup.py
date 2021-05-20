@@ -56,11 +56,11 @@ setup(
       zip_safe=False,
       python_requires='>=3.6',
       classifiers=[
-            'Intended Audience :: Science/ Networking Research',
+            'Intended Audience :: Science/Networking Research',
             'Intended Audience :: Developers',
             'Programming Language :: Python',
             'Topic :: Software Development',
-            'Topic :: Scientific/ Network Engineering',
+            'Topic :: Scientific/Network Engineering',
             'Operating System :: Microsoft :: Windows',
             'Operating System :: POSIX',
             'Operating System :: Unix',

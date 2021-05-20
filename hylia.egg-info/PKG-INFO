@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: hylia
-Version: 0.1.1
+Version: 0.1.2
 Summary: A python time series library for network operations.
 Home-page: https://github.com/esnet/hylia_networkprediction
 Maintainer: Daphne
@@ -10,28 +10,26 @@ Project-URL: Documentation, https://github.com/esnet/hylia_networkprediction
 Project-URL: Source Code, https://github.com/esnet/hylia_networkprediction
 Description: # Hylia: Studying Network Time-Series Data Made Easy
         
-        <p align="center">
-        <img src="https://github.com/esnet/hylia_networkprediction/raw/master/static/hylia-logo.png" width="100%" height="100%" title="hylia-logo">
-        <p>
-         
+        ![](https://github.com/esnet/hylia_networkprediction/raw/master/static/hylia-logo.png)
         ---
         ![PyPI version](https://badge.fury.io/py/hylia.svg)
         ![Supported versions](https://img.shields.io/pypi/pyversions/hylia)
         
         
         
-        Hylia is a python libary to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
+        Hylia is a python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
         
-        ## Documentation
+        ## Guide and Documentation
         
-        - Example Tutorials
-        - API documentations
+        - Hylia Example Tutorials
+        - Hylia API documentations
         
         ## Explanations
+        - Website
         - Blog
         - Video
         
-        ## Install
+        ## Installation
         Current installation of Hylia has been tested on Python 3.6. To get started  recommend to first setup a clean Python environment for your project with at least Python 3.6 using any of your favorite tool for instance, ([conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html "conda-env"), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/latest/) with or without [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)).
         
         Once your environment is all set up you can install hylia using pip:
@@ -111,16 +109,16 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         
         ## Installation Guide
         
-        ### Preconditions
+        ### Requirements
         
-        A Conda environment is thus recommended because it will handle all of those in one go. The following steps assume running inside a conda environment. 
+        A Conda environment is recommended because it handles some non-python dependency issues because some of our models depends on [torch](https://pytorch.org/get-started/locally/) and [fbprophet](https://facebook.github.io/prophet/docs/installation.html#python). please feel free to follow the official instructions to install [torch](https://pytorch.org/get-started/locally/) and [fbprophet](https://facebook.github.io/prophet/docs/installation.html#python). The following steps assume running inside a conda environment. 
         
-        Create a conda environment for Python 3.7
+        Step 1: Create a conda environment for Python 3.7
         (after installing [conda](https://docs.conda.io/en/latest/miniconda.html)):
         
             conda create --name <env-name> python=3.7
         
-        Activate your virtual environment
+        Step: Then ctivate your virtual environment
         
             conda activate <env-name>
         
@@ -156,6 +154,15 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         ```
         After that docs will be available in `./docs/build/html` directory. You can just open `./docs/build/html/index.html` using your favourite browser.
         
+        ## Important Links
+        - Release notes:
+        - Docs:
+        - Tutorials: 
+        - Example Notebooks:
+        - Other Resources: 
+        - Issue Logs: 
+        - Contribute:
+        - Join Slack Community:
         
         ## Contact Us
         See attached Licence to Lawrence Berkeley National Laboratory
@@ -163,11 +170,11 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         
 Keywords: network time series prediction library
 Platform: UNKNOWN
-Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Science/ Networking Research
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python
 Classifier: Topic :: Software Development
-Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/ Network Engineering
 Classifier: Operating System :: Microsoft :: Windows
 Classifier: Operating System :: POSIX
 Classifier: Operating System :: Unix
