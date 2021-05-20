@@ -1,10 +1,10 @@
-Need help
+Questions
 ========= 
 
-Please if you need any help or have any questions please contact mkiran@es.net.
+Please if you have any questions or need any help please contact mkiran@es.net.
 
 
 Need further help
 ^^^^^^^^^^^^^^^^^
 
-Please email bmohammed@lbl.gov or join our Slack channel.
+If you need further help please email bmohammed@lbl.gov or join our Slack channel.
