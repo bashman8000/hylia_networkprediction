@@ -51,24 +51,23 @@ Key Links and Resources
    :hidden:
    :caption: Documentation
 
-   api/LSTM
-   api/ARIMA
-   api/Exponential smoothing
-   api/SARIMA
-   api/Facebook Prophet
-   api/FFT (Fast Fourier Transform)
-   api/DDCRNN
-
+   LSTM
+   ARIMA
+   Exponential smoothing
+   SARIMA
+   Facebook Prophet
+   FFT (Fast Fourier Transform)
+   DDCRNN
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Supported datasets:
 
-   api/NetFlow
-   api/SNMP
-   api/PCAP
-   api/sFLOW
+   NetFlow
+   SNMP
+   PCAP
+   sFLOW
  
 Guide
 ^^^^^
