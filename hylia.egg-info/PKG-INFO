@@ -170,11 +170,11 @@ Description: # Hylia: Studying Network Time-Series Data Made Easy
         
 Keywords: network time series prediction library
 Platform: UNKNOWN
-Classifier: Intended Audience :: Science/Networking Research
+Classifier: Intended Audience :: Science/Research
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python
 Classifier: Topic :: Software Development
-Classifier: Topic :: Scientific/Network Engineering
+Classifier: Topic :: Scientific/Engineering
 Classifier: Operating System :: Microsoft :: Windows
 Classifier: Operating System :: POSIX
 Classifier: Operating System :: Unix
