@@ -35,7 +35,7 @@ setup(
       long_description_content_type="text/markdown",
       project_urls=PROJECT_URLS,
       url=URL,
-      maintainer='Daphne-Lab',
+      maintainer='Daphne-lab',
       maintainer_email='mkiran@es.net',
       license='Lawrence Berkeley National Laboratory',
       packages=find_packages(),
