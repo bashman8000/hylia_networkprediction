@@ -145,14 +145,15 @@ To build documantation locally just run
 After that docs will be available in `./docs/build/html` directory. You can just open `./docs/build/html/index.html` using your favourite browser.
 
 ## Important Links
+- Docs: https://hylia.readthedocs.io/en/latest/index.html
+- Example Notebooks: https://github.com/esnet/hylia_networkprediction/tree/master/notebooks
+- Tutorials: https://github.com/esnet/hylia_networkprediction
+- pypi package: https://pypi.org/project/hylia/
 - Release notes:
-- Docs:
-- Tutorials: 
-- Example Notebooks:
-- Other Resources: 
 - Issue Logs: 
 - Contribute:
 - Join Slack Community:
+- Other Resources: 
 
 ## Contact Us
 See attached Licence to Lawrence Berkeley National Laboratory
