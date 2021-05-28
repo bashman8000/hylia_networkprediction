@@ -11,8 +11,9 @@ Hylia is a python library to study, process and forecast time series data produc
 
 ## Guide and Documentation
 
-- Hylia Example Tutorials
-- Hylia API documentations
+- Hylia API documentations: https://hylia.readthedocs.io/en/latest/index.html
+- Hylia Example Tutorials: https://github.com/esnet/hylia_networkprediction/tree/master/notebooks
+
 
 ## Explanations
 - Website
