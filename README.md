@@ -7,7 +7,7 @@
 
 
 
-Hylia is a python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters) to complex deep learning models to train and inference forecasting challenges. 
+Hylia is a python library to study, process and forecast time series data produced in networking applications. The library contains a collection of multiple models from statistics (Arima, Holt-Winters)to complex deep learning models to train and inference forecasting challenges. 
 
 ## Guide and Documentation
 
